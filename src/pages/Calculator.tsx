@@ -424,7 +424,7 @@ const Calculator: React.FC = () => {
                       <Label>Annual Flights</Label>
                       <div className="grid gap-4 sm:grid-cols-3">
                         <div>
-                          <Label htmlFor="flights.shortHaul" className="text-sm">Short Haul (<3 hrs)</Label>
+                          <Label htmlFor="flights.shortHaul" className="text-sm">Short Haul (&lt;3 hrs)</Label>
                           <Input
                             type="number"
                             id="flights.shortHaul"
@@ -448,7 +448,7 @@ const Calculator: React.FC = () => {
                           />
                         </div>
                         <div>
-                          <Label htmlFor="flights.longHaul" className="text-sm">Long Haul (>6 hrs)</Label>
+                          <Label htmlFor="flights.longHaul" className="text-sm">Long Haul (&gt;6 hrs)</Label>
                           <Input
                             type="number"
                             id="flights.longHaul"
